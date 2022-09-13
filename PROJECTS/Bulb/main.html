@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On and Off Button</title>
+    <style>
+        h2,
+        p {
+            color:brown;
+            text-align: center;
+            font-size: 25px;
+
+        }
+
+        button {
+            color: black;
+            background-color: rgb(229, 123, 88);
+            height: 50px;
+            width: 200px;
+            border-radius: 16px;
+            
+
+        }
+        div{
+            display: flex;
+            align-content: center;
+            margin: 100px;
+            align-items: center;
+
+        }
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>What can Java Script Do.</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <div>
+        <div>
+            <!-- adding on button-->
+            <button onclick="document.getElementById('image').src = 'pic_bulbon.gif'">Turn on the Light</button>
+
+
+        </div>
+        <div>
+            <!-- gif of bulb  -->
+            <img src="./bulboff .gif" alt="bulb" id="image" tyle='width:100px'>
+        </div>
+        <div>
+            <!-- adding button  -->
+            <button onclick="document.getElementById('image').src = 'bulboff .gif'">
+                Turn off the Light.
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
