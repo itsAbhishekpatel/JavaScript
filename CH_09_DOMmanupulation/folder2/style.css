@@ -1,0 +1,36 @@
+#red {
+    height: 70px;
+    width: 250px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#yellow {
+    height: 70px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+#green {
+    height: 70px;
+    width: 250px;
+    background-color: green;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#clear{
+    background-color: brown;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    margin: 100px;
+    border: 4px solid black;
+    
+}
